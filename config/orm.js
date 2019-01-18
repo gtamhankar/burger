@@ -10,7 +10,8 @@ var tableName = "burgers";
 var orm = {
 
   selectAll: function(callback) {
-    var s = " SELECT * FROM " + tableName + " where devoured = 0 order by id desc";
+    // var s = " SELECT * FROM " + tableName + " where devoured = 0 order by id desc";
+	 var s = " SELECT * FROM " + tableName + " order by id desc";
     connection.query(s, function(err, result) {
       callback(result);
 	  console.log("inside orm selectAll");

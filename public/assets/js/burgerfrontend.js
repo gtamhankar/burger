@@ -16,14 +16,27 @@ $(function() {
     });
 		
 	
-	$(".delete").on('click', function(event) {
+	$(".Devour").on('click', function(event) {
         event.preventDefault();		               
         //var id = $(this).data("id");        
 		//console.log("client: inside delete button:id:"+id);
 		console.log("client: data.id:"+ $(this).data("id"));
-        $.post("/api/DevourBurger", $(this).data("id")).then(function(result) {
+        $.post("/api/DevourBurger", {id: $(this).data("id")}).then(function(result) {
             console.log(result);
-            //location.reload();
+            location.reload();
+			console.log("back in delete at client")
+          });          
+    });
+
+
+	$(".Delete").on('click', function(event) {
+        event.preventDefault();		               
+        //var id = $(this).data("id");        
+		//console.log("client: inside delete button:id:"+id);
+		console.log("client: data.id:"+ $(this).data("id"));
+        $.post("/api/DeleteBurger", {id: $(this).data("id")}).then(function(result) {
+            console.log(result);
+            location.reload();
 			console.log("back in delete at client")
           });          
     });
