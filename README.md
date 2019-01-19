@@ -22,4 +22,4 @@ App stores every burger in a database, whether devoured or not.
 			
 ### Graphical User Interface:
 ---------------------------------
-![](public/assets/img/burger.jpg)
+![](public/assets/img/demo.jpg)
