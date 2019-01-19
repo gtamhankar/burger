@@ -9,13 +9,14 @@ This is assignment 14: https://unc.bootcampcontent.com/UNC-Coding-Boot-Camp/UNCH
 
 Demo Video: https://www.youtube.com/watch?v=msvdn95x9OM&feature=youtu.be
 
+
 ### Application Specific Details:
 ----------------------------------
 Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 Whenever a user submits a burger's name, app displays the burger on the left side of the page -- waiting to be devoured.
 Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
 App stores every burger in a database, whether devoured or not.
-					
+				
 			
 ### Graphical User Interface:
 ---------------------------------

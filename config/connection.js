@@ -14,7 +14,6 @@ var source = {
     password: "",
     database: "burgers_db"
   },
-
 };
 
 var connection = mysql.createConnection(source.localhost);
